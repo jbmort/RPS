@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgray;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+#top {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#selection, #play {
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+}
+
+#result {
+    font-size: 24px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+}
